@@ -21,4 +21,8 @@
   | >=      | 大于等于           |
   | between | 在指定的两个值之间 |
 
-- 
+- `NULL`值不是0、空字符或者仅包含空格的字符串。
+
+- `is null`和`is not null`
+
+  ![image-20210411192754920](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/11/192756-764263.png)
