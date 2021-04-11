@@ -20,7 +20,7 @@
 
 - `show columns from tablename;`用来显示表列
 
-  ![image-20210411093407181](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20210411093407181.png)
+  ![image-20210411093407181](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/11/094848-142683.png)
 
 - `describe table`是`show columns from tablename`的简写行式。
 
@@ -36,11 +36,11 @@
 
 - `show grants`用于显示授予用户的安全权限
 
-  ![image-20210411094349541](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20210411094349541.png)
+  ![image-20210411094349541](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/11/094840-775835.png)
 
 - `show errors`或者`show warnings`用来显示服务器的错误或者警告信息。
 
-  ![image-20210411094418914](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20210411094418914.png)
+  ![image-20210411094418914](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/11/094837-729475.png)
 
 
 
