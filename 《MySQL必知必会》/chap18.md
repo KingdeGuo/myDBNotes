@@ -21,8 +21,37 @@
   ​			![image-20210412155716760](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/12/155716-17279.png)
 
 - 在定义之后，MySQL自动维护该索引，在增加、更新或删除行时，索引也随之自动更新。
+
 - 不要在导入数据时使用`fulltext`。应该先导入数据，然后再修改表，定义`fulltext`，否则更新索引将会花费不少时间。
+
 - 进行全文本搜索
+
   - `match()`指定被搜索的行
   - `against()`指定要使用的搜索表达式。
-- 
+
+  ![image-20210412160245348](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/12/160808-854286.png)
+
+- 查询扩展，使用`with query expansion`
+
+  ```sql
+  selcect note_text from productnotes where match（note_text) against('anvils' with query expansion);
+  ```
+
+- 布尔文本搜索，使用`in boolean mode`
+
+  ```sql
+  selcect note_text from productnotes where match（note_text) against('anvils' in boolean mode);
+  ```
+
+- 全文本布尔操作符
+
+  - `+` 包含，词必须存在
+  - `-` 排除，词不能出现
+  - `>`包含，而且增加等级值
+  - `<` 包含，而且降低等级值
+  - `()` 把词组成子表达式
+  - `~`取消一个词的排序值
+  - `*`词尾通配符
+  - `""`定义一个短语
+
+  
