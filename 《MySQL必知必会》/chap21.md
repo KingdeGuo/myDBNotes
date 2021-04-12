@@ -18,4 +18,13 @@
 
 - 可以使用`select last_insert_id()`函数来获取最后一个`auto_increment`的值。
 
-  
+- 更新表用到的是`alter table`
+
+  - 添加属性`alter table tablename add other_name char(20) `
+  - 删除属性`alter table tablename drop column name`
+  - 添加外键`alter table tablename add constraint the_key tablename foreign key (order_num) references orders (order_num);`
+
+- 删除表可以使用`drop table tablename`
+
+- 重命名表`rename table tablename to newname`；
+
