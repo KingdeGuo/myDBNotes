@@ -23,4 +23,12 @@
 
   ![image-20210425201024587](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/25/201343-891333.png)
 
-- 
+- NoSQL常见的五种模式
+
+  ![image-20210425202437617](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/25/202441-981049.png)
+  NoSQL的特点
+
+  - 使用弱存储模式技术（少了一些约束，所以性能提升了）
+  - 没有采用SQL技术标准来定义和操作数据库（所以可移植性不是很好）
+  - 采用弱事务保证数据可用性即安全性或根本没有事务处理机制
+  - 主要采用多机分布式处理
