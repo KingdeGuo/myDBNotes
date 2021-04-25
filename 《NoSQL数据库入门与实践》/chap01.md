@@ -21,6 +21,6 @@
 
   常采用下面的场景
 
-  ![image-20210425201024587](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20210425201024587.png)
+  ![image-20210425201024587](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/25/201343-891333.png)
 
 - 
