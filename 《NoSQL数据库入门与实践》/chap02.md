@@ -33,7 +33,7 @@
 
     在主从式结构中，Master负责Slave的注册、协调及分配任务等
 
-    ![image-20210425204325278](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/25/204330-67288.png)
+    ![image-20210425205751494](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202104/25/205752-173463.png)
 
   - 帽子定理/CAP定理
 
