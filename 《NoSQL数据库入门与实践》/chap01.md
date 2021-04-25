@@ -12,4 +12,15 @@
 
   - TRDB是指：Traditional Relational Database，即 传统型关系型数据库
 
+- 传统关系型数据库特点
+
+  - 使用强存储模式技术
+  - 采用SQL技术标准来定义和操作数据库
+  - 采用强事务保证可用性和安全性
+  - 主要采用单机集中式处理
+
+  常采用下面的场景
+
+  ![image-20210425201024587](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20210425201024587.png)
+
 - 
