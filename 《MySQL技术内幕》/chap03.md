@@ -62,3 +62,8 @@
   ![image-20210505100625033](https://raw.githubusercontent.com/KingdeGuo/myPictureBed/main/img_upload202105/05/100626-244327.png)
 
 - 需要注意的是，MySQL实例本身不会对参数文件中的该值进行修改，也就是在下次启动时还是会读取参数文件。若想在数据库实例下次启动时还是保留当前修改的值，那么用户必须去修改参数文件。
+
+
+
+## 日志文件
+
